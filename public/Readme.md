@@ -1,6 +1,6 @@
 <div align="center">
 
-# [Demo](https://dibrovgleb.github.io/Vite-react-ts-ghpages-template/)
+# [Demo](https://dibrovgleb.github.io/frontend-prof-task/)
 
 </div>
 
@@ -10,18 +10,3 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-181717?style=for-the-badge&logo=typescript&logoColor=007ACC)
 ![Git](https://img.shields.io/badge/-Git-181717?style=for-the-badge&logo=git)
 ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github)
-
-## Features example
-
-- Light/dark mode toggle
-- Live previews
-- Fullscreen mode
-- Cross platform
-
-<div align="center">
-
-## Screenshot
-
-![App Screenshot](https://i.imgur.com/HIOmHJ1.png)
-
-</div>

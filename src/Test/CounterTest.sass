@@ -1,0 +1,37 @@
+.counter-container
+  margin: 20px
+  display: flex
+  gap: 50px
+  justify-content: center
+  flex-wrap: wrap
+  align-items: center
+  align-content: center
+  @media (max-width:450px)
+    flex-direction: column
+    gap: 20px
+.counter-primary, .counter-secondary
+  display: grid
+  grid-template: 1fr / repeat(3, 60px)
+  justify-items: center
+  align-items: center
+  gap: 20px
+
+.counter-values
+  display: grid
+  gap: 10px
+  input[type=number]
+    padding: 10px
+    font-family: inherit
+    outline: 0
+    border: 0
+    background: #8366561F
+    color: #2E2F33
+    border-radius: 8px
+  .counter-btn
+    padding: 10px
+    &.num
+      background: #8366561F
+      color: #2E2F33
+    &.str
+      background: #2FB675
+      color: #fff

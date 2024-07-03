@@ -1,0 +1,34 @@
+.count-shell-primary, .count-shell-primary .pulse
+  color: #fff
+
+.count-shell-secondary, .count-shell-secondary .pulse
+  color: #2E2F33
+
+.count-shell-secondary, .count-shell-primary
+  display: flex
+  justify-content: center
+  align-items: center
+  position: relative
+  border-radius: 50px
+  font-family: 'Roboto'
+
+.count-shell-secondary, .count-shell-primary
+  .pulse
+    position: absolute
+    border-radius: 50px
+    animation: red-dot-scale-fade 2s infinite
+
+.count-shell-secondary, .count-shell-primary
+  .pulse.two
+    animation-delay: 0.3s
+
+@keyframes red-dot-scale-fade
+  0%
+    opacity: 0.5
+    transform: scale(1)
+  50%
+    opacity: 0
+    transform: scale(3)
+  100%
+    opacity: 0
+    transform: scale(3)

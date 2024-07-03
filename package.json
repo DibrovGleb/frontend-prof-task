@@ -1,8 +1,8 @@
 {
-  "name": "Vite-react-ts-ghpages-template",
+  "name": "frontend-prof-task",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://dibrovgleb.github.io/Vite-react-ts-ghpages-template/",
+  "homepage": "https://dibrovgleb.github.io/frontend-prof-task/",
   "type": "module",
   "scripts": {
     "deploy": "gh-pages -d dist",

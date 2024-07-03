@@ -1,0 +1,17 @@
+.button-container
+  display: flex
+  gap: 20px
+  justify-content: center
+  flex-wrap: wrap
+  align-items: flex-start
+  align-content: center
+  h2
+    text-align: center
+  @media (max-width:450px)
+    flex-direction: column
+    gap: 20px
+.button-primary, .button-secondary
+  display: grid
+  grid-template: 1fr / repeat(3, 280px)
+  align-items: flex-end
+  gap: 10px
